@@ -3,7 +3,7 @@
 
 // I AM NOT DONE
 
-const NUMBER = 3;
+const i32: NUMBER = 3;
 fn main() {
     println!("Number {}", NUMBER);
 }
