@@ -44,7 +44,8 @@ impl Message {
                 position: position.trim().to_string(),
             };
         } else {
-            panic!("Invalid input");
+            println!("Invalid input");
+            return Message::input();
         }
     }
 
